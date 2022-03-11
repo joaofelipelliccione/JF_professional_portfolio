@@ -1,0 +1,173 @@
+#projectsWithInterface {
+  background-image: linear-gradient(rgb(54, 56, 70), rgb(71, 50, 71));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-top: 160px;
+  padding-bottom: 4%;
+}
+
+#projectsWithInterface h2 {
+  color: #ec6948;
+  font-size: 1.8em;
+  font-weight: 700;
+  text-align: center;
+  width: fit-content;
+  margin-bottom: 2%;
+}
+
+#projectsCarouselContainer {
+  background-color: #272935;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 65%;
+  padding: 1%;
+}
+
+#projectsCarouselPlayPauseBtnContainer {
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  margin-top: 1%;
+  margin-bottom: 2.5%;
+}
+
+#projectsCarouselPlayPauseBtnFlipper {
+  transition: .3s cubic-bezier(.775, .07, .575, .995);
+  transform-style: preserve-3d;
+  position: absolute;
+}
+
+.projectsCarouselPPBtn.active {
+  transform: rotateX(180deg);
+}
+
+#projectsCarouselPauseBtn {
+  background-color: #282a36;
+  color: rgb(255, 85, 85);
+  border: none;
+  display: flex;
+  align-items: center;
+  font-size: 2em;
+  transition-duration: 0.3s;
+
+  backface-visibility: hidden;
+  z-index: 2;
+  transform: rotateX(0deg);
+  position: absolute;
+}
+
+#projectsCarouselPauseBtn:hover {
+  color: rgb(255, 138, 138);
+  cursor: pointer;
+}
+
+#projectsCarouselPlayBtn {
+  background-color: #282a36;
+  color: #50fa7b;
+  border: none;
+  display: flex;
+  align-items: center;
+  font-size: 2em;
+  transition-duration: 0.3s;
+
+  backface-visibility: hidden;
+  transform: rotateX(-180deg);
+  position: relative;
+}
+
+#projectsCarouselPlayBtn:hover {
+  color: #9efdb6;
+  cursor: pointer;
+}
+
+.projectsCarouselNavBtn {
+  background-color: rgba(255, 255, 255, 0);
+  color: #50fa7b;;
+  border: none;
+  display: flex;
+  align-items: center;
+  font-size: 2em;
+  transition-duration: 0.3s;
+}
+
+.projectsCarouselNavBtn:hover {
+  color: #9efdb6;
+  cursor: pointer;
+}
+
+.eachCarouselProject.active {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.eachCarouselProject.active h3 {
+  color: #50fa7b;
+  align-self: center;
+  text-align: center;
+  font-size: 1.6em;
+  width: fit-content;
+  margin: 0;
+}
+
+.eachCarouselProject.active h4 {
+  color: wheat;
+  align-self: center;
+  font-size: 1.45em;
+  width: fit-content;
+  text-align: center;
+  margin-top: 1.5%;
+  margin-bottom: 0;
+}
+
+.eachCarouselProject.active img {
+  border-radius: 7px;
+  align-self: center;
+  width: 710px;
+  height: 550px;
+  margin-top: 2%;
+}
+
+.eachCarouselProject.inactive {
+  display: none;
+}
+
+#eachCarouselDescription {
+  background-color: #e17b62;
+  border-radius: 10px 30px ;
+  color: white;
+  align-self: center;
+  font-size: 1.3em;
+  width: 95%;
+  text-align: center;
+  margin-top: 3%;
+  padding: 1% 2%;
+}
+
+#eachCarouselTimeInProg {
+  color: wheat;
+  font-size: 1.25em;
+  align-self: center;
+  text-align: center;
+  margin: 0;
+}
+
+.eachCarouselProject.active a {
+  color: ghostwhite;
+  align-self: center;
+  text-decoration: overline;
+  font-size: 1.2em;
+  margin-top: 3%;
+  margin-bottom: 1%;
+  transition-duration: 0.2s;
+}
+
+.eachCarouselProject.active a:hover {
+  color: #9efdb6;;
+  text-decoration: underline;
+}

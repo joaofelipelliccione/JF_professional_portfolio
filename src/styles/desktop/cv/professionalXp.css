@@ -1,0 +1,126 @@
+#professionalXp {
+  background-image: url('../../../images/office-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-y: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 2% 0 3% 0;
+}
+
+#professionalXp h2 {
+  color: #455481;
+  font-size: 2em;
+  font-weight: 700;
+  text-align: center;
+  width: fit-content;
+  margin-top: 0;
+  margin-bottom: 3%;
+}
+
+#profXpContainer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 85%;
+}
+
+#lorealContainer {
+  background-color: rgb(114, 91, 32);
+  border: solid 3px rgb(194, 146, 25);
+  border-radius: 70px 25px;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.5), 0 17px 50px 0 rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-self: center;
+  padding: 0 2% 2%;
+}
+
+#lorealContainer h3 {
+  font-size: 1.5em;
+  color: ghostwhite;
+  margin-top: 4%;
+  margin-bottom: 1%;
+}
+
+#lorealImgContainer {
+  display: block;
+  margin-top: 5%;
+  margin-bottom: 4%;
+}
+
+#lorealImgContainer img {
+  border-radius: 10px;
+  width: 50%;
+  transition-duration: 0.3s;
+}
+
+#lorealImgContainer img:hover {
+  width: 53%;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  padding: 1.5%;
+}
+
+#vinciContainer {
+  background-color: #056385;
+  border: solid 3px #00b0f2;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.5), 0 17px 50px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 25px 70px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 50%;
+  padding: 0 2% 2%;
+}
+
+#vinciContainer h3 {
+  font-size: 1.6em;
+  color: ghostwhite;
+  margin-bottom: 0;
+}
+
+#vinciImgContainer {
+  display: block;
+  margin: 3% 0;
+}
+
+#vinciImgContainer img {
+  border-radius: 10px;
+  width: 35%;
+  transition-duration: 0.3s;
+}
+
+#vinciImgContainer img:hover {
+  width: 38%;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  padding: 1.5%;
+}
+
+#vinciCertificate {
+  width: fit-content;
+  align-self: center;
+  margin-top: 4%;
+  margin-bottom: 0;
+}
+
+#vinciCertificate a {
+  color: #50fa7b;
+  font-size: 1.2em;
+  text-decoration: overline;
+  transition-duration: 0.3s;
+}
+
+#vinciCertificate a:hover {
+  color: yellow;
+  text-decoration: underline;
+}
+
+/* Classes compartilhadas pelos elementos da seção. */
+.profXpContent {
+  color: #e2c48f;
+  font-size: 1.4em;
+  margin-bottom: 4px;
+}

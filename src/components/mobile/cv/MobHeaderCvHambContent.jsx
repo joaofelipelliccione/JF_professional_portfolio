@@ -1,0 +1,94 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
+import { Link as LinkScroll } from 'react-scroll';
+import githubIcon from '../../../images/icons/github-icon.svg';
+import linkedinIcon from '../../../images/icons/linkedin-icon.svg';
+
+function MobHeaderCvHambContent({ isHambContentOpen, setIsHambContentOpen }) {
+  const cvPageSections = [
+    { title: 'Formação Acadêmica', location: 'mobAcademicBackground' },
+    { title: 'Experiências Profissionais', location: 'mobProfessionalXp' },
+    { title: 'Ferramentas e Idiomas', location: 'mobToolsAndLanguages' },
+    { title: 'Atividades Extracurriculares', location: 'mobExtraCvActivities' },
+  ];
+
+  const dropdownRef = React.useRef(null);
+
+  React.useEffect(() => {
+    const pageClickEvent = ({ target }) => {
+      if (dropdownRef.current !== null && !dropdownRef.current.contains(target)) {
+        setIsHambContentOpen(!isHambContentOpen);
+      }
+    };
+
+    if (isHambContentOpen) {
+      window.addEventListener('click', pageClickEvent);
+    }
+
+    return () => {
+      window.removeEventListener('click', pageClickEvent);
+    };
+  }, [isHambContentOpen]);
+
+  return (
+    <div
+      id="mobHeaderCvHambContentContainer"
+      ref={ dropdownRef }
+      className="slide-bottom"
+    >
+      {cvPageSections.map(({ title, location }) => (
+        <LinkScroll
+          className="headerCvHambInternalLinks"
+          key={ title }
+          to={ location }
+          smooth
+          duration={ 600 }
+          offset={ -75 }
+          onClick={ () => setIsHambContentOpen(false) }
+        >
+          {title}
+        </LinkScroll>
+      ))}
+      <Link
+        id="mobPortfolioLink"
+        className="headerCvHambInternalLinks"
+        to="/portfolio"
+      >
+        Portfólio Tech
+      </Link>
+      <div id="headerCvHambExternalLinksCont">
+        <a
+          href="https://github.com/joaofelipelliccione"
+          target="_blank"
+          rel="noreferrer"
+          onClick={ () => setIsHambContentOpen(false) }
+        >
+          <img
+            alt="Github Icon"
+            src={ githubIcon }
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/joaofelipelliccione/"
+          target="_blank"
+          rel="noreferrer"
+          onClick={ () => setIsHambContentOpen(false) }
+        >
+          <img
+            alt="Linkeding Icon"
+            src={ linkedinIcon }
+            width="30px"
+          />
+        </a>
+      </div>
+    </div>
+  );
+}
+
+MobHeaderCvHambContent.propTypes = {
+  isHambContentOpen: PropTypes.bool.isRequired,
+  setIsHambContentOpen: PropTypes.func.isRequired,
+};
+
+export default MobHeaderCvHambContent;

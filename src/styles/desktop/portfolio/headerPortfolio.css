@@ -1,0 +1,93 @@
+#portfolioPageHeader {
+  background-color: #282a36;
+  box-shadow: 0 10px 16px -4px black;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+
+#portfolioPageHeader h1 {
+  margin-top: 1.5%;
+  margin-bottom: 0.5%;
+}
+
+#portfolioPageHeader h1 a {
+  color: wheat;
+  font-size: 1.9em;
+  width: fit-content;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+
+#portfolioPageHeader h1 a:hover {
+  color: #50fa7b;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+#portfolioPageHeader nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#portfolioPageHeaderNavBar {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  width: 55%;
+  padding-left: 0;
+}
+
+#portfolioPageHeaderNavBar li {
+  width: fit-content;
+  text-align: center;
+}
+
+.notDropdown, .dropdownBtn {
+  color: ghostwhite;
+  font-size: 1.3em;
+  font-weight: 900;
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+
+.notDropdown:hover, .dropdownBtn:hover {
+  color: #50fa7b;
+  font-size: 1.35em;
+  cursor: pointer;
+  text-decoration: overline;
+}
+
+.dropdownContent {
+  background-image: linear-gradient(rgb(54, 56, 70), rgb(71, 50, 71));
+  border-radius: 20px 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  display: none;
+  position: absolute;
+  min-width: 7%;
+}
+
+.dropdownContent a {
+  color: #50fa7b;
+  font-size: 1.1em;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  padding: 5% 7%;
+  transition-duration: 0.3s;
+}
+
+.dropdown:hover .dropdownContent {
+  display: block;
+}
+
+.dropdownContent a:hover {
+  color: #ec6948;
+  font-size: 1.15em;
+}

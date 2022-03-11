@@ -1,0 +1,129 @@
+#cvPageMobileHeader {
+  background-color: #282a36;
+  box-shadow: 0 10px 16px -4px black;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 4% 0;
+}
+
+#cvPageMobHeaderContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 2% 0;
+}
+
+#cvPageMobHeaderHamburgerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+}
+
+#cvPageMobHeaderButtonFlipper {
+  margin-left: 4%;
+
+  transition: .3s cubic-bezier(.775, .07, .575, .995);
+  transform-style: preserve-3d;
+  position: absolute;
+}
+
+.menu.active {
+  transform: rotateX(180deg);
+}
+
+#cvPageMobHeaderHamburgerBtn {
+  background-color: #282a36;
+  color: #50fa7b;
+  border: none;
+  display: flex;
+  align-items: center;
+  font-size: 1.2em;
+
+  backface-visibility: hidden;
+  z-index: 2;
+  transform: rotateX(0deg);
+  position: absolute;
+}
+
+#cvPageMobHeaderCloseBtn {
+  background-color: #282a36;
+  color: rgb(255, 85, 85);
+  border: none;
+  display: flex;
+  align-items: center;
+  font-size: 1.2em;
+
+  backface-visibility: hidden;
+  transform: rotateX(-180deg);
+  position: relative;
+}
+
+#cvPageMobHeaderContainer a {
+  color: wheat;
+  font-size: 1.15em;
+  margin-right: 5%;
+}
+
+#mobHeaderCvHambContentContainer {
+  background-color: #282a36;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 85%;
+  margin: -1.5% 0 1% 0;
+}
+
+.slide-bottom {
+	-webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(6%);
+    transform: translateY(6%);
+  }
+}
+
+@keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(6%);
+    transform: translateY(6%);
+  }
+}
+
+#mobPortfolioLink {
+  color: ghostwhite;
+  font-size: 1.17em;
+}
+
+.headerCvHambInternalLinks {
+  border-bottom: solid 1px wheat;
+  color: #50fa7b;
+  font-size: 1.05em;
+  text-decoration: none;
+  text-align: center;
+  width: fit-content;
+  margin-bottom: 2.5%;
+}
+
+#headerCvHambExternalLinksCont {
+  display: flex;
+  justify-content: space-evenly;
+  width: 30%;
+  margin-top: 4%;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
