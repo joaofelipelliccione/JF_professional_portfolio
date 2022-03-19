@@ -95,7 +95,7 @@
   background-color: #e17b62;
   color: white;
   border-radius: 9px;
-  font-size: 1.15em;
+  font-size: 1.05em;
   font-weight: 500;
   width: 98%;
   text-align: center;
@@ -106,17 +106,18 @@
 
 #mobNoInterfaceTimeInProg {
   color: #282A36;
-  font-size: 1.05em;
+  font-size: 0.95em;
   font-weight: 600;
   text-align: center;
   margin-top: 4%;
   margin-bottom: 0;
+  padding: 0 4%;
 }
 
 .eachMobProjectWithoutIntCard a {
   color: #2F86A6;
   text-decoration: overline;
-  font-size: 1em;
+  font-size: 0.9em;
   font-weight: 600;
   margin-top: 5%;
   margin-bottom: 2%;
