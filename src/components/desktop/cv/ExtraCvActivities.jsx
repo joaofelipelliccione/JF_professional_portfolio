@@ -8,46 +8,46 @@ import '../../../styles/desktop/cv/extraCvActivities.css';
 function ExtraCvActivities() { // extraCvA --> "Extra Cv Activities"
   return (
     <section id="extraCvActivities">
-      <h2>Atividades Extracurriculares</h2>
+      <h2>Extracurricular Activities</h2>
 
       <article id="extraCvAContainer">
         <div id="monitoriasContainer">
           <h3>
-            Monitor de Graduação |
+            Class Instructor |
             <span id="iagTitle"> IAG PUC-Rio</span>
           </h3>
 
           <div className="monitorias">
-            Administração Financeira
+            Financial Management
             <nav>
-              <a href={ certificadoAdmFin } target="_blank" rel="noreferrer" className="monitoriaCertificates">Certificado</a>
+              <a href={ certificadoAdmFin } target="_blank" rel="noreferrer" className="monitoriaCertificates">Certificate</a>
             </nav>
           </div>
           <div className="monitorias">
-            Planilhas para Negócios
+            Excel & VBA
             <nav>
-              <a href={ certificadoPlanilhas } target="_blank" rel="noreferrer" className="monitoriaCertificates">Certificado</a>
+              <a href={ certificadoPlanilhas } target="_blank" rel="noreferrer" className="monitoriaCertificates">Certificate</a>
             </nav>
           </div>
         </div>
 
         <div id="additionalInfoContainer">
-          <h3>Informações Adicionais</h3>
+          <h3>Additional Info</h3>
 
           <div id="hackathon">
             <h4 className="additionalInfoSubtitle">
-              Vencedor do primeiro Hackathon de Negócios IAG/PUC-Rio, em dezembro de 2018
+              Winner of the 1st “IAG/PUC-Rio Business Innovation Hackathon”, in December 2018
               <span className="additionalInfoPipe"> | </span>
               <span className="additionalInfoInstitution">PUC-Rio</span>
             </h4>
             <nav className="additionalInfoCertificates">
-              <a href={ certificadoHackathon } target="_blank" rel="noreferrer">Certificado</a>
+              <a href={ certificadoHackathon } target="_blank" rel="noreferrer">Certificate</a>
             </nav>
           </div>
 
           <div id="scholarship">
             <h4 className="additionalInfoSubtitle">
-              Ganhador da Bolsa Prêmio 2018.1, por ser o 4º maior CR de ADM no período
+              Winner of the 2018.1 “PUC-Rio merit-based scholarship”, for being the 4th best GPA in Business Administration
               <span className="additionalInfoPipe"> | </span>
               <span className="additionalInfoInstitution">PUC-Rio</span>
             </h4>
