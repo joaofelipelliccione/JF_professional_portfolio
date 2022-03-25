@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import historicoPuc from '../../../certificates/historico-final-puc.pdf';
 import hertsResults from '../../../certificates/herts_results.pdf';
@@ -7,33 +8,33 @@ import '../../../styles/mobile/cv/mobileAcademicCv.css';
 function MobileAcademicCv() {
   return (
     <section id="mobAcademicBackground">
-      <h2>Formação Acadêmica</h2>
+      <h2>Academic Background</h2>
 
       <div id="mobAbContainer1">
         <div id="mobAdmPuc">
           <h3 className="mobAbEachTitle">
-            Administração de Empresas c/ Domínio Adicional em Empreendedorismo
+            Undergraduate degree in Business Administration with a minor in Entrepreneurship
             <span className="mobAbPipe"> | </span>
             <span className="mobAbInstitution">PUC-Rio</span>
           </h3>
           <div className="mobAbContent">
-            <span>- Formado no final de 2021</span>
-            <span>- CR acumulado em 9,67</span>
-            <a href={ historicoPuc } target="_blank" rel="noreferrer" className="mobAbContentLinks">Espelho do Histórico</a>
-            <a href="https://www.google.com/" target="_blank" rel="noreferrer" className="mobAbContentLinks">Diploma ADM</a>
-            <a href="https://www.google.com/" target="_blank" rel="noreferrer" className="mobAbContentLinks">Diploma Empreendedorismo</a>
+            <span>- Concluded in December 2021</span>
+            <span>- Final GPA of 9.67</span>
+            <a href={ historicoPuc } target="_blank" rel="noreferrer" className="mobAbContentLinks">Academic Record</a>
+            <a href="https://www.google.com/" target="_blank" rel="noreferrer" className="mobAbContentLinks">Business Administration Diploma (Major)</a>
+            <a href="https://www.google.com/" target="_blank" rel="noreferrer" className="mobAbContentLinks">Entrepreneurship Diploma (Minor)</a>
           </div>
         </div>
 
         <div id="mobTrybe">
           <h3 className="mobAbEachTitle">
-            Curso Profissionalizante em Desenvolvimento de Software WEB
+            Full-Stack Web Development Vocational Course
             <span className="mobAbPipe"> | </span>
             <span className="mobAbInstitution">Trybe</span>
           </h3>
           <div className="mobAbContent">
-            <span>- Previsão de Formatura para junho de 2022</span>
-            <a href="https://www.betrybe.com/" target="_blank" rel="noreferrer" className="mobAbContentLinks">Website da Escola</a>
+            <span>- Expected completion for July 2022</span>
+            <a href="https://www.betrybe.com/" target="_blank" rel="noreferrer" className="mobAbContentLinks">School's Website</a>
           </div>
         </div>
       </div>
@@ -41,29 +42,29 @@ function MobileAcademicCv() {
       <div id="mobAbContainer2">
         <div id="mobHertsExchange">
           <h3 className="mobAbEachTitle">
-            Intercâmbio Acadêmico
+            Academic Exchange
             <span className="mobAbPipe"> | </span>
             <span className="mobAbInstitution">University of Hertfordshire</span>
           </h3>
           <div className="mobAbContent">
             <span>
-              - Realização do 6° período da graduação em Administração de Empresas da PUC-Rio, na University of Hertfordshire.
+              - Completion of an entire semester of PUC-Rio's Business Administration undergraduate degree, at the University of Hertfordshire.
             </span>
             <a href={ hertsResults } target="_blank" rel="noreferrer" className="mobAbContentLinks">
-              <em>Notification of Results</em>
+              Academic Record
             </a>
           </div>
         </div>
 
         <div id="mobTeresiano">
           <h3 className="mobAbEachTitle">
-            Ensino Fundamental e Médio
+            Primary, Middle and High School
             <span className="mobAbPipe"> | </span>
             <span className="mobAbInstitution">Colégio Teresiano</span>
           </h3>
           <div className="mobAbContent">
-            <span>- Formado em 2016.</span>
-            <a href={ certificadoTeresiano } target="_blank" rel="noreferrer" className="mobAbContentLinks">Certificado de Conclusão</a>
+            <span>- Concluded in December 2016</span>
+            <a href={ certificadoTeresiano } target="_blank" rel="noreferrer" className="mobAbContentLinks">Diploma</a>
           </div>
         </div>
       </div>
