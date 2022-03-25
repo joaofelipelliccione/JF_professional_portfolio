@@ -7,9 +7,9 @@ function WhoAmICv() {
     <section id="whoAmI">
       <article id="presentation">
         <img src={ fotoProfissional } alt="Foto do desenvolvedor." />
-        <h2>Quem sou eu?</h2>
-        <p>Um carioca de 23 anos que busca, cotidianamente, o equilíbrio entre os três pilares mais importantes da vida: saúde, família/amigos e sucesso profissional. A paixão por esportes e o foco voltado à realização de sonhos e objetivos profissionais, também me definem.</p>
-        <p>Abaixo, apresento alguns elementos da minha trajetória até aqui, já antecipando que minha sede por conhecimento e meu empenho em me tornar uma pessoa cada vez mais preparada para trabalhar em equipes diversas, cujo principal objetivo seja a resolução de problemas, vêm influenciando minhas escolhas ao longo dos últimos anos.</p>
+        <h2>Who am I?</h2>
+        <p>A 23-year-old men who seeks, daily, the balance between the three most important pillars of life: health, family/friends and professional success. The passion for sports and the focus on achieving professional dreams and goals also defines me.</p>
+        <p>Below, I present some elements of my trajectory so far, already anticipating that my thirst for knowledge and my commitment to becoming an increasingly prepared professional have been influencing my choices over the last few years.</p>
       </article>
     </section>
   );

@@ -7,10 +7,10 @@ function MobileWhoAmICv() {
     <section id="mobWhoAmI">
       <article id="mobPresentation">
         <img src={ fotoProfissional } alt="Foto do desenvolvedor." />
-        <h2>Quem sou eu?</h2>
+        <h2>Who am I?</h2>
         <div id="mobPresentationScrollWrapper">
-          <p>Um carioca de 23 anos que busca, cotidianamente, o equilíbrio entre os três pilares mais importantes da vida: saúde, família/amigos e sucesso profissional. A paixão por esportes e o foco voltado à realização de sonhos e objetivos profissionais, também me definem.</p>
-          <p>Abaixo, apresento alguns elementos da minha trajetória até aqui, já antecipando que minha sede por conhecimento e meu empenho em me tornar uma pessoa cada vez mais preparada, vêm influenciando minhas escolhas ao longo dos últimos anos.</p>
+          <p>A 23-year-old men who seeks, daily, the balance between the three most important pillars of life: health, family/friends and professional success. The passion for sports and the focus on achieving professional dreams and goals also defines me.</p>
+          <p>Below, I present some elements of my trajectory so far, already anticipating that my thirst for knowledge and my commitment to becoming an increasingly prepared professional have been influencing my choices over the last few years.</p>
         </div>
       </article>
     </section>
