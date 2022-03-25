@@ -7,19 +7,19 @@ import '../../../styles/mobile/cv/mobileProfessionalXp.css';
 function MobileProfessionalXp() {
   return (
     <section id="mobProfessionalXp">
-      <h2>Experiências Profissionais</h2>
+      <h2>Professional Experiences</h2>
 
       <div id="mobProfXpContainer">
         <div id="mobLorealContainer">
-          <h3>Estagiário de Operações</h3>
+          <h3>Operations Intern</h3>
           <a id="mobLorealImgContainer" href="https://www.loreal.com/pt-br/brazil/" rel="noreferrer" target="_blank">
             <img src={ logoLoreal } alt="Logo L'Oréal Brasil" />
           </a>
           <span className="mobProfXpContent">
-            - Área de Compra de Matéria Prima Direta
+            - Raw Materials Sourcing Area
           </span>
           <span className="mobProfXpContent">
-            - Setembro de 2020 a maio de 2021
+            - From September 2020 to May 2021
           </span>
         </div>
 
@@ -29,13 +29,13 @@ function MobileProfessionalXp() {
             <img src={ logoVinci } alt="Logo Vinci" />
           </a>
           <span className="mobProfXpContent">
-            - Áreas percorridas: Back Office, Crédito, Private Equity, Real State & Hedge Funds.
+            - 5-week job rotation program: Back Office, Credit, Private Equity, Real State & Hedge Funds.
           </span>
           <span className="mobProfXpContent">
-            - Julho a agosto de 2018 (total de 5 Semanas)
+            - From July 2018 to August 2018
           </span>
           <div id="mobVinciCertificate">
-            <a href={ certificadoVinci } target="_blank" rel="noreferrer">Certificado de Conclusão</a>
+            <a href={ certificadoVinci } target="_blank" rel="noreferrer">Certificate</a>
           </div>
         </div>
       </div>
