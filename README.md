@@ -1,2 +1,1 @@
-# JF_professional_portfolio
-Repositório voltado ao armazenamento do portfólio profissional, desenvolvido em React.
+👨‍💻 _[Dê uma olhada!](https://joaofelipecunha.vercel.app/)_
