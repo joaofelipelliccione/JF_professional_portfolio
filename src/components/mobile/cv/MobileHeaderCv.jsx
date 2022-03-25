@@ -24,10 +24,10 @@ function MobileHeaderCv() {
           <Typist cursor={ { hideWhenDone: true, hideWhenDoneDelay: 2000, blink: true } }>
             João Felipe P
             <Typist.Backspace count={ 13 } delay={ 2100 } />
-            Desenvolvedor Web
-            <Typist.Backspace count={ 17 } delay={ 2100 } />
-            Administrador
-            <Typist.Backspace count={ 14 } delay={ 2100 } />
+            Junior Full-Stack Web Developer
+            <Typist.Backspace count={ 31 } delay={ 2100 } />
+            Business Administrator
+            <Typist.Backspace count={ 22 } delay={ 2100 } />
             João Felipe P.
           </Typist>
         </LinkScroll>

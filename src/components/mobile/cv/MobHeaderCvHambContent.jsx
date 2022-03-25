@@ -7,10 +7,10 @@ import linkedinIcon from '../../../images/icons/linkedin-icon.svg';
 
 function MobHeaderCvHambContent({ isHambContentOpen, setIsHambContentOpen }) {
   const cvPageSections = [
-    { title: 'Formação Acadêmica', location: 'mobAcademicBackground' },
-    { title: 'Experiências Profissionais', location: 'mobProfessionalXp' },
-    { title: 'Ferramentas e Idiomas', location: 'mobToolsAndLanguages' },
-    { title: 'Atividades Extracurriculares', location: 'mobExtraCvActivities' },
+    { title: 'Academic Background', location: 'mobAcademicBackground' },
+    { title: 'Professional Experiences', location: 'mobProfessionalXp' },
+    { title: 'Tools & Languages', location: 'mobToolsAndLanguages' },
+    { title: 'Extracurricular Activities', location: 'mobExtraCvActivities' },
   ];
 
   const dropdownRef = React.useRef(null);
@@ -55,7 +55,7 @@ function MobHeaderCvHambContent({ isHambContentOpen, setIsHambContentOpen }) {
         className="headerCvHambInternalLinks"
         to="/portfolio"
       >
-        Portfólio Tech
+        Tech Portfolio
       </Link>
       <div id="headerCvHambExternalLinksCont">
         <a
