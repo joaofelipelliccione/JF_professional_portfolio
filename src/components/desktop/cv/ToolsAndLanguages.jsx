@@ -8,32 +8,32 @@ import certificadoIelts from '../../../certificates/certificado-IELTS.pdf';
 import '../../../styles/desktop/cv/toolsAndLanguages.css';
 
 function ToolsAndLanguages() { // tAndL --> Tools and Languages
-  const CERTIFICADO_HASHTAG = 'Certificado Hashtag Treinamentos';
+  const CERTIFICADO_HASHTAG = 'Hashtag Treinamentos Certificate';
 
   return (
     <section id="toolsAndLanguages">
-      <h2>Ferramentas e Idiomas</h2>
+      <h2>Tools & Languages</h2>
 
       <article id="tAndLContainer">
         <div id="OfficePackage">
-          <h3>Pacote MS Office</h3>
+          <h3>MS Office</h3>
 
           <div className="eachTool">
-            Excel Avançado
+            Advanced Excel
             <span className="tAndLPipe"> | </span>
             <nav className="hashtagCertificateContainer">
               <a href={ certificadoHashExcel } target="_blank" rel="noreferrer" className="hashtagCertificate">{CERTIFICADO_HASHTAG}</a>
             </nav>
           </div>
           <div className="eachTool">
-            VBA Avançado
+            Advanced VBA
             <span className="tAndLPipe"> | </span>
             <nav className="hashtagCertificateContainer">
               <a href={ certificadoHashVba } target="_blank" rel="noreferrer" className="hashtagCertificate">{CERTIFICADO_HASHTAG}</a>
             </nav>
           </div>
           <div className="eachTool">
-            Power BI Avançado
+            Advanced Power Bi
             <span className="tAndLPipe"> | </span>
             <nav className="hashtagCertificateContainer">
               <a href={ certificadoHashPowerBi } target="_blank" rel="noreferrer" className="hashtagCertificate">{CERTIFICADO_HASHTAG}</a>
@@ -42,7 +42,7 @@ function ToolsAndLanguages() { // tAndL --> Tools and Languages
         </div>
 
         <div id="techTools">
-          <h3>Programação | Tech</h3>
+          <h3>Programming | Tech</h3>
           <div id="techToolsContainer1">
             {learnedTechnologiesArr[0].map(({ name, icon, width }) => (
               <img
@@ -90,16 +90,16 @@ function ToolsAndLanguages() { // tAndL --> Tools and Languages
         </div>
 
         <div id="languages">
-          <h3>Inglês Avançado</h3>
+          <h3>Advanced English</h3>
           <nav>
             <a href="https://www.britishcouncil.org.br/exame/ielts" target="_blank" rel="noreferrer" id="ieltsImgContainer">
               <img src={ logoIelts } alt="Logo IELTS" />
             </a>
           </nav>
           <span>- CEFR level C1</span>
-          <span>- Data de realização do Exame: dezembro de 2018</span>
+          <span>- Test date: December 2018</span>
           <nav id="ieltsCertificate">
-            <a href={ certificadoIelts } target="_blank" rel="noreferrer">Certificado IELTS</a>
+            <a href={ certificadoIelts } target="_blank" rel="noreferrer">IELTS Certificate</a>
           </nav>
         </div>
       </article>

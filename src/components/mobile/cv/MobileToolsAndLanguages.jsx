@@ -8,32 +8,32 @@ import logoIelts from '../../../images/logo-ielts.png';
 import '../../../styles/mobile/cv/mobileToolsAndLanguages.css';
 
 function MobileToolsAndLanguages() { // tAndL --> Tools and Languages
-  const CERTIFICADO_HASHTAG = 'Certificado Hashtag Treinamentos';
+  const CERTIFICADO_HASHTAG = 'Hashtag Treinamentos Certificate';
 
   return (
     <section id="mobToolsAndLanguages">
-      <h2>Ferramentas e Idiomas</h2>
+      <h2>Tools & Languages</h2>
 
       <article id="mobTAndLContainer">
         <div id="mobOfficePackage">
-          <h3>Pacote MS Office</h3>
+          <h3>MS Office</h3>
 
           <div className="mobEachTool">
-            Excel Avançado
+            Advanced Excel
             <span className="mobTAndLPipe"> | </span>
             <nav className="mobHashtagCertificateContainer">
               <a href={ certificadoHashExcel } target="_blank" rel="noreferrer" className="mobHashtagCertificate">{CERTIFICADO_HASHTAG}</a>
             </nav>
           </div>
           <div className="mobEachTool">
-            VBA Avançado
+            Advanced VBA
             <span className="mobTAndLPipe"> | </span>
             <nav className="mobHashtagCertificateContainer">
               <a href={ certificadoHashVba } target="_blank" rel="noreferrer" className="mobHashtagCertificate">{CERTIFICADO_HASHTAG}</a>
             </nav>
           </div>
           <div className="mobEachTool">
-            Power BI Avançado
+            Advanced Power Bi
             <span className="mobTAndLPipe"> | </span>
             <nav className="mobHashtagCertificateContainer">
               <a href={ certificadoHashPowerBi } target="_blank" rel="noreferrer" className="mobHashtagCertificate">{CERTIFICADO_HASHTAG}</a>
@@ -42,7 +42,7 @@ function MobileToolsAndLanguages() { // tAndL --> Tools and Languages
         </div>
 
         <div id="mobTechTools">
-          <h3>Programação | Tech</h3>
+          <h3>Programming | Tech</h3>
           <div id="mobTechToolsContainer1">
             {learnedTechnologiesArr[0].map(({ name, icon, width }) => (
               <img
@@ -90,16 +90,16 @@ function MobileToolsAndLanguages() { // tAndL --> Tools and Languages
         </div>
 
         <div id="mobLanguages">
-          <h3>Inglês Avançado</h3>
+          <h3>Advanced English</h3>
           <nav>
             <a href="https://www.britishcouncil.org.br/exame/ielts" target="_blank" rel="noreferrer" id="mobIeltsImgContainer">
               <img src={ logoIelts } alt="Logo IELTS" />
             </a>
           </nav>
           <span>- CEFR level C1</span>
-          <span>- Data de realização do Exame: dezembro de 2018</span>
+          <span>- Test date: December 2018</span>
           <nav id="mobIeltsCertificate">
-            <a href={ certificadoIelts } target="_blank" rel="noreferrer">Certificado IELTS</a>
+            <a href={ certificadoIelts } target="_blank" rel="noreferrer">IELTS Certificate</a>
           </nav>
         </div>
       </article>
