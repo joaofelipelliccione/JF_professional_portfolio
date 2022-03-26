@@ -8,7 +8,7 @@ function MobileProjectsWithInterface() {
 
   return (
     <section id="mobileProjectsWithInterface">
-      <h2>Projetos com Interface</h2>
+      <h2>Projects with Interface</h2>
       <MobileProjectsCarousel
         projectsWithInterface={ projectsWithInterface }
       />

@@ -67,7 +67,7 @@ function ProjectsCarousel({ projectsWithInterface }) {
             setIsProjectsCarouselPaused={ setIsProjectsCarouselPaused }
           />
           <h3>{project.title}</h3>
-          <h4>{`Desenvolvido em ${project.skills}`}</h4>
+          <h4>{`Developed using ${project.skills}`}</h4>
           <img
             alt="Gif do Projeto"
             src={ project.gifPath }
@@ -80,14 +80,14 @@ function ProjectsCarousel({ projectsWithInterface }) {
           <p
             id="eachCarouselTimeInProg"
           >
-            { `Tempo desde que comecei a programar: ${project.timeInProg}.` }
+            { `Time since I started coding: ${project.timeInProg}` }
           </p>
           <a
             href={ project.URL }
             target="_blank"
             rel="noreferrer"
           >
-            Ir para o website!
+            Visit the website!
           </a>
         </div>
       ))}

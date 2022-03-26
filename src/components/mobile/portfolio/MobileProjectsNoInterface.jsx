@@ -17,7 +17,7 @@ function MobileProjectsNoInterface() {
 
   return (
     <section id="mobProjectsWithoutInterface">
-      <h2>Projetos sem Interface</h2>
+      <h2>Projects without Interface</h2>
       <div
         id="mobProjectsWithoutIntContainer"
       >
@@ -41,12 +41,12 @@ function MobileProjectsNoInterface() {
               onKeyDown={ (e) => onClickProjectCard(e) }
             >
               <h3>{ title }</h3>
-              <h4>{`Utilização de ${skills}`}</h4>
+              <h4>{`Use of ${skills}`}</h4>
             </div>
             <div id="eachMobProjectWithoutIntCardBack">
               <p id="mobNoInterfaceProjectDescription">{ description }</p>
-              <p id="mobNoInterfaceTimeInProg">{`Tempo desde que comecei a programar: ${timeInProg}.`}</p>
-              <a href={ URL } target="_blank" rel="noreferrer">Verificar Código</a>
+              <p id="mobNoInterfaceTimeInProg">{`Time since I started coding: ${timeInProg}`}</p>
+              <a href={ URL } target="_blank" rel="noreferrer">Check the code!</a>
             </div>
           </div>
         ))}

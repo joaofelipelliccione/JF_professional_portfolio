@@ -7,8 +7,8 @@ import linkedinIcon from '../../../images/icons/linkedin-icon.svg';
 
 function MobHeaderPortHambContent({ isHambContentOpen, setIsHambContentOpen }) {
   const portPageSections = [
-    { title: 'Projetos com Interface', location: 'mobileProjectsWithInterface' },
-    { title: 'Projetos sem Interface', location: 'mobProjectsWithoutInterface' },
+    { title: 'Projects with Interface', location: 'mobileProjectsWithInterface' },
+    { title: 'Projects without Interface', location: 'mobProjectsWithoutInterface' },
   ];
 
   const dropdownRef = React.useRef(null);
@@ -53,7 +53,7 @@ function MobHeaderPortHambContent({ isHambContentOpen, setIsHambContentOpen }) {
         className="headerPortHambInternalLinks"
         to="/"
       >
-        Currículo
+        Curriculum
       </Link>
       <div id="headerPortHambExternalLinksCont">
         <a

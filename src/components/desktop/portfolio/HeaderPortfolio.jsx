@@ -10,29 +10,29 @@ function HeaderPortfolio() {
       <h1>
         <LinkScroll to="projectsWithInterface" smooth duration={ 600 }>
           <Typist cursor={ { hideWhenDone: true, hideWhenDoneDelay: 2000, blink: true } }>
-              Portfólio
+              Portfolio
               <Typist.Backspace count={9} delay={2100} />
-              Projetos Desenvolvimento Web
-              <Typist.Backspace count={28} delay={2100} />
-              Portfólio Tech
+              WEB Development Projects
+              <Typist.Backspace count={24} delay={2100} />
+              Tech Portfolio
             </Typist>
         </LinkScroll>
       </h1>
       <nav>
         <ul id="portfolioPageHeaderNavBar">
-          <li><Link to="/" className="notDropdown">Currículo</Link></li>
+          <li><Link to="/" className="notDropdown">Curriculum</Link></li>
           <li className="notDropdown">
             <LinkScroll to="projectsWithInterface" smooth duration={ 600 } spy>
-              Projetos com Interface
+              Projects with Interface
             </LinkScroll>
           </li>
           <li className="notDropdown">
             <LinkScroll to="projectsWithoutInterface" smooth duration={ 600 } offset={ -140 } spy>
-              Projetos sem Interface
+              Projects without Interface
             </LinkScroll>
           </li>
           <li className="dropdown">
-            <Link to="#" className="dropdownBtn" onClick={ (e) => e.preventDefault() }>Contato »</Link>
+            <Link to="#" className="dropdownBtn" onClick={ (e) => e.preventDefault() }>Contact Info »</Link>
             <div className="dropdownContent">
               <a href="mailto:jf.pelliccione@gmail.com" target="_blank" rel="noreferrer">E-mail</a>
               <a href="https://github.com/joaofelipelliccione" target="_blank" rel="noreferrer">Github</a>

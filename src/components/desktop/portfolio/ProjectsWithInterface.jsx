@@ -8,7 +8,7 @@ function ProjectsWithInterface() {
 
   return (
     <section id="projectsWithInterface">
-      <h2>Projetos com Interface</h2>
+      <h2>Projects with Interface</h2>
       <ProjectsCarousel
         projectsWithInterface={ projectsWithInterface }
       />

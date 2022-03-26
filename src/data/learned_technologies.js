@@ -15,8 +15,8 @@ import trelloIcon from '../images/icons/trello-icon.svg';
 
 const learnedTechnologiesArr = [
   [
-    { name: 'HTML', icon: htmlIcon, width: '45px' },
-    { name: 'CSS', icon: cssIcon, width: '45px' },
+    { name: 'HTML 5', icon: htmlIcon, width: '45px' },
+    { name: 'CSS 3', icon: cssIcon, width: '45px' },
     { name: 'Javascript', icon: jsIcon, width: '45px' },
     { name: 'React JS', icon: reactJsIcon, width: '45px' },
     { name: 'Redux', icon: reduxIcon, width: '45px' },

@@ -22,11 +22,11 @@ function MobileHeaderPortfolio() {
           onClick={ () => setIsHambContentOpen(false) }
         >
           <Typist cursor={ { hideWhenDone: true, hideWhenDoneDelay: 2000, blink: true } }>
-            Portfólio
+            Portfolio
             <Typist.Backspace count={ 9 } delay={ 2100 } />
-            Projetos Desenvolvimento Web
-            <Typist.Backspace count={ 28 } delay={ 2100 } />
-            Portfólio Tech
+            WEB Development Projects
+            <Typist.Backspace count={ 24 } delay={ 2100 } />
+            Tech Portfolio
           </Typist>
         </LinkScroll>
       </div>

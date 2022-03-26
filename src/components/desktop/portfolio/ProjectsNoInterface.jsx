@@ -7,18 +7,18 @@ function ProjectsNoInterface() {
 
   return (
     <section id="projectsWithoutInterface">
-      <h2>Projetos sem Interface</h2>
+      <h2>Projects without Interface</h2>
       <div id="projectsWithoutIntContainer">
         {withoutInterface.map(({ id, title, skills, description, timeInProg, URL }) => (
           <div id="eachProjectWithoutIntCard" key={ id }>
             <div id="eachProjectWithoutIntCardFront">
               <h3>{ title }</h3>
-              <h4>{`Utilização de ${skills}`}</h4>
+              <h4>{`Use of ${skills}`}</h4>
             </div>
             <div id="eachProjectWithoutIntCardBack">
               <p id="noInterfaceProjectDescription">{ description }</p>
-              <p id="noInterfaceTimeInProg">{`Tempo desde que comecei a programar: ${timeInProg}.`}</p>
-              <a href={ URL } target="_blank" rel="noreferrer">Verificar Código</a>
+              <p id="noInterfaceTimeInProg">{`Time since I started coding: ${timeInProg}`}</p>
+              <a href={ URL } target="_blank" rel="noreferrer">Check the code!</a>
             </div>
           </div>
         ))}
