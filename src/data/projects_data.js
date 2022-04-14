@@ -174,11 +174,11 @@ const projects = {
     {
       id: 'CRUDApiTypescriptWithORM',
       title: 'RESTful Typescript API built with Sequelize',
-      description: 'Development of a RESTful CRUD API with endpoints aiming the reading and editing of a MySQL database. To structure the respective project there were use of Node.JS, Express, Typescript and the ORM Sequelize..',
-      skills: 'Node.JS & Typescript',
-      URL: 'https://github.com/joaofelipelliccione/joaofelipelliccione.github.io/tree/main/projetos-trybe/3-Backend/08_NodeJs-CRUD-API-Typescript-ORM',
+      description: 'Development of a RESTful CRUD API with endpoints aiming the reading and editing of a MySQL database. To structure the respective project there were use of Docker, Node.JS, Express, Typescript and the ORM Sequelize.',
+      skills: 'Docker, Node.JS & Typescript',
+      URL: 'https://github.com/joaofelipelliccione/joaofelipelliccione.github.io/tree/main/projetos-trybe/3-Backend/09_TFC',
       startDate: '29/03/2022',
-      timeInProg: '8 months and 17 days',
+      timeInProg: '8 months and 20 days',
     },
   ],
 };
