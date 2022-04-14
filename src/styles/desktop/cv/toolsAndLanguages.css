@@ -93,7 +93,8 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  width: 90%;
+  width: 85%;
+  margin-bottom: 0;
 }
 
 #techToolsContainer2 {
@@ -101,8 +102,9 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  width: 60%;
-  margin-top: 2%;
+  width: 65%;
+  margin-top: 2.5%;
+  margin-bottom: 0;
 }
 
 #techToolsContainer3 {
@@ -110,8 +112,9 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  width: 40%;
-  margin-top: 2%;
+  width: 50%;
+  margin-top: 2.5%;
+  margin-bottom: 0;
 }
 
 #techToolsContainer4 {
@@ -120,8 +123,18 @@
   justify-content: space-evenly;
   align-items: center;
   width: 35%;
-  margin-top: 4%;
-  margin-bottom: -1%;
+  margin-top: 2.5%;
+  margin-bottom: 0;
+}
+
+#techToolsContainer5 {
+  align-self: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 30%;
+  margin-top: 3.5%;
+  margin-bottom: -1;
 }
 
 #languages {

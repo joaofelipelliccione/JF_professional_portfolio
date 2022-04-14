@@ -71,13 +71,24 @@ function ToolsAndLanguages() { // tAndL --> Tools and Languages
                 key={ name }
                 title={ name }
                 alt={ name }
-                src={ icon }
                 width={ width }
+                src={ icon }
               />
             ))}
           </div>
           <div id="techToolsContainer4">
             {learnedTechnologiesArr[3].map(({ name, icon, width }) => (
+              <img
+                key={ name }
+                title={ name }
+                alt={ name }
+                src={ icon }
+                width={ width }
+              />
+            ))}
+          </div>
+          <div id="techToolsContainer5">
+            {learnedTechnologiesArr[4].map(({ name, icon, width }) => (
               <img
                 key={ name }
                 alt={ name }

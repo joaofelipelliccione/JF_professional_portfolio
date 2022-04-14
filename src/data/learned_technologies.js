@@ -5,9 +5,12 @@ import reactJsIcon from '../images/icons/react-icon.svg';
 import reduxIcon from '../images/icons/redux-icon.svg';
 import nodeJsIcon from '../images/icons/node-js-icon.svg';
 import tsIcon from '../images/icons/typescript-icon.svg';
+import sequelizeIcon from '../images/icons/sequelize-icon.svg';
+import mongooseIcon from '../images/icons/mongoose-icon.png';
 import gitIcon from '../images/icons/git-icon.svg';
 import dockerIcon from '../images/icons/docker-icon.svg';
 import mySqlIcon from '../images/icons/mysql-icon.svg';
+import mongoDbIcon from '../images/icons/mongodb-icon.png';
 import vercelIcon from '../images/icons/vercel-icon.svg';
 import herokuIcon from '../images/icons/heroku-icon.svg';
 import GCSIcon from '../images/icons/GCS-icon.svg';
@@ -21,13 +24,18 @@ const learnedTechnologiesArr = [
     { name: 'Javascript', icon: jsIcon, width: '45px' },
     { name: 'React JS', icon: reactJsIcon, width: '45px' },
     { name: 'Redux', icon: reduxIcon, width: '45px' },
+  ],
+  [
     { name: 'Node JS', icon: nodeJsIcon, width: '45px' },
     { name: 'Typescript', icon: tsIcon, width: '45px' },
+    { name: 'Sequelize', icon: sequelizeIcon, width: '38px' },
+    { name: 'Mongoose', icon: mongooseIcon, width: '60px' },
   ],
   [
     { name: 'Git', icon: gitIcon, width: '45px' },
     { name: 'Docker', icon: dockerIcon, width: '45px' },
     { name: 'MySQL', icon: mySqlIcon, width: '60px' },
+    { name: 'MongoDB', icon: mongoDbIcon, width: '45px' },
   ],
   [
     { name: 'Vercel', icon: vercelIcon, width: '35px' },

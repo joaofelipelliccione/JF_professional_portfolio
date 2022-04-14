@@ -57,10 +57,10 @@ function MobileToolsAndLanguages() { // tAndL --> Tools and Languages
           <div id="mobTechToolsContainer2">
             {learnedTechnologiesArr[1].map(({ name, icon, width }) => (
               <img
-                key={ name }
-                title={ name }
                 src={ icon }
+                key={ name }
                 alt={ name }
+                title={ name }
                 width={ width }
               />
             ))}
@@ -70,14 +70,25 @@ function MobileToolsAndLanguages() { // tAndL --> Tools and Languages
               <img
                 key={ name }
                 title={ name }
-                alt={ name }
                 src={ icon }
+                alt={ name }
                 width={ width }
               />
             ))}
           </div>
           <div id="mobTechToolsContainer4">
             {learnedTechnologiesArr[3].map(({ name, icon, width }) => (
+              <img
+                key={ name }
+                title={ name }
+                alt={ name }
+                src={ icon }
+                width={ width }
+              />
+            ))}
+          </div>
+          <div id="mobTechToolsContainer5">
+            {learnedTechnologiesArr[4].map(({ name, icon, width }) => (
               <img
                 key={ name }
                 alt={ name }
