@@ -180,6 +180,15 @@ const projects = {
       startDate: '29/03/2022',
       timeInProg: '8 months and 20 days',
     },
+    {
+      id: 'baristaAppBack',
+      title: 'Backend Barista App',
+      description: 'Development of a RESTful API with endpoints aiming the reading of a MySQL database which lists all Nespresso\'s® capsules information. To structure the respective project there were use of Docker, Node.JS, Express, Typescript and the ORM Sequelize.',
+      skills: 'Docker, Node.JS & Typescript',
+      URL: 'https://github.com/joaofelipelliccione/barista_app_back',
+      startDate: '09/04/2022',
+      timeInProg: '9 months',
+    },
   ],
 };
 
