@@ -1,5 +1,6 @@
 import React from 'react';
 import historicoPuc from '../../../certificates/historico-final-puc.pdf';
+import diplomaADM from '../../../certificates/diploma-ADM.pdf';
 import hertsResults from '../../../certificates/herts_results.pdf';
 import certificadoTeresiano from '../../../certificates/teresiano1.pdf';
 import '../../../styles/desktop/cv/academicCv.css';
@@ -20,7 +21,7 @@ function AcademicCv() { // aB --> "Academic Background"
             <span>- Concluded in December 2021</span>
             <span>- Final GPA of 9.67</span>
             <a href={ historicoPuc } target="_blank" rel="noreferrer" className="aBContentLinks">Academic Record</a>
-            <a href="#" target="_blank" rel="noreferrer" className="aBContentLinks">Business Administration Diploma (Major)</a>
+            <a href={ diplomaADM } target="_blank" rel="noreferrer" className="aBContentLinks">Business Administration Diploma (Major)</a>
             <a href="#" target="_blank" rel="noreferrer" className="aBContentLinks">Entrepreneurship Diploma (Minor)</a>
           </div>
         </div>
