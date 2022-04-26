@@ -2,6 +2,7 @@
 import React from 'react';
 import historicoPuc from '../../../certificates/historico-final-puc.pdf';
 import diplomaADM from '../../../certificates/diploma-ADM.pdf';
+import diplomaEMP from '../../../certificates/diploma-EMP.pdf';
 import hertsResults from '../../../certificates/herts_results.pdf';
 import certificadoTeresiano from '../../../certificates/teresiano1.pdf';
 import '../../../styles/mobile/cv/mobileAcademicCv.css';
@@ -23,7 +24,7 @@ function MobileAcademicCv() {
             <span>- Final GPA of 9.67</span>
             <a href={ historicoPuc } target="_blank" rel="noreferrer" className="mobAbContentLinks">Academic Record</a>
             <a href={ diplomaADM } target="_blank" rel="noreferrer" className="mobAbContentLinks">Business Administration Diploma (Major)</a>
-            <a href="https://www.google.com/" target="_blank" rel="noreferrer" className="mobAbContentLinks">Entrepreneurship Diploma (Minor)</a>
+            <a href={ diplomaEMP } target="_blank" rel="noreferrer" className="mobAbContentLinks">Entrepreneurship Diploma (Minor)</a>
           </div>
         </div>
 
