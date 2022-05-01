@@ -83,9 +83,6 @@ function MobileProjectsCarousel({ projectsWithInterface }) {
         <div
           key={ project.id }
           className={ `eachMobileCarouselProject ${i === currentProject ? 'active' : 'inactive'}` }
-          onTouchStart={ (e) => handleTouchStart(e) }
-          onTouchMove={ (e) => handleTouchMove(e) }
-          onTouchEnd={ handleTouchEnd }
         >
           <MobileProjectsCarouselPlayPauseBtn
             isProjectsCarouselPaused={ isProjectsCarouselPaused }
@@ -97,6 +94,9 @@ function MobileProjectsCarousel({ projectsWithInterface }) {
             alt="Gif do Projeto"
             src={ project.gifPath }
             id={ `mob${project.id}` }
+            onTouchStart={ (e) => handleTouchStart(e) }
+            onTouchMove={ (e) => handleTouchMove(e) }
+            onTouchEnd={ handleTouchEnd }
           />
           <p
             id="eachMobileCarouselDescription"
