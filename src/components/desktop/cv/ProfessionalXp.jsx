@@ -1,15 +1,29 @@
 import React from 'react';
+import logoNg from '../../../images/logo-ng.jpg';
 import logoLoreal from '../../../images/logo-loreal.png';
-import logoVinci from '../../../images/logo-vinci.png';
-import certificadoVinci from '../../../certificates/certificado-vinci.pdf';
+// import logoVinci from '../../../images/logo-vinci.png';
+// import certificadoVinci from '../../../certificates/certificado-vinci.pdf';
 import '../../../styles/desktop/cv/professionalXp.css';
 
 function ProfessionalXp() { // profXp --> Professional Experience
   return (
     <section id="professionalXp">
-      <h2>Professional Experiences</h2>
+      <h2>Most Recent Professional Experiences</h2>
 
       <div id="profXpContainer">
+        <div id="ngContainer">
+          <h3>Product Owner</h3>
+          <a id="ngImgContainer" href="https://ng.cash/" rel="noreferrer" target="_blank">
+            <img src={ logoNg } alt="Logo NG.CASH" />
+          </a>
+          <span className="profXpContent">
+            - Product Area
+          </span>
+          <span className="profXpContent">
+            - From May 2022 to nowadays
+          </span>
+        </div>
+
         <div id="lorealContainer">
           <h3>Operations Intern</h3>
           <a id="lorealImgContainer" href="https://www.loreal.com/pt-br/brazil/" rel="noreferrer" target="_blank">
@@ -23,7 +37,7 @@ function ProfessionalXp() { // profXp --> Professional Experience
           </span>
         </div>
 
-        <div id="vinciContainer">
+        {/* <div id="vinciContainer">
           <h3>Work Experience</h3>
           <a id="vinciImgContainer" href="https://www.vincipartners.com/" rel="noreferrer" target="_blank">
             <img src={ logoVinci } alt="Logo Vinci" />
@@ -37,7 +51,7 @@ function ProfessionalXp() { // profXp --> Professional Experience
           <div id="vinciCertificate">
             <a href={ certificadoVinci } target="_blank" rel="noreferrer">Certificate</a>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
