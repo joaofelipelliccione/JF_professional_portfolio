@@ -96,6 +96,7 @@ function MobileProjectsCarousel({ projectsWithInterface }) {
           <img
             alt="Gif do Projeto"
             src={ project.gifPath }
+            id={ `mob${project.id}` }
           />
           <p
             id="eachMobileCarouselDescription"

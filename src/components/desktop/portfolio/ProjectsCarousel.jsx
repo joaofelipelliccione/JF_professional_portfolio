@@ -71,6 +71,7 @@ function ProjectsCarousel({ projectsWithInterface }) {
           <img
             alt="Gif do Projeto"
             src={ project.gifPath }
+            id={ project.id }
           />
           <p
             id="eachCarouselDescription"

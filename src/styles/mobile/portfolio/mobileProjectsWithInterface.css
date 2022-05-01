@@ -122,6 +122,11 @@
   display: none;
 }
 
+#mobbaritapp {
+  width: 95%;
+  height: 550px;
+}
+
 #eachMobileCarouselDescription {
   background-color: #e17b62;
   border-radius: 5px 15px ;

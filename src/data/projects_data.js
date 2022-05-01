@@ -1,5 +1,5 @@
-import toDoGIF from '../gifs/gif-toDo.gif';
-import trybewartsGIF from '../gifs/gif-trybewarts.gif';
+// import toDoGIF from '../gifs/gif-toDo.gif';
+// import trybewartsGIF from '../gifs/gif-trybewarts.gif';
 import onlineShop1GIF from '../gifs/gif-onlineShop1.gif';
 import mathInMusicGIF from '../gifs/gif-mathInMusic.gif';
 import superTrunfoGIF from '../gifs/gif-superTrunfo.gif';
@@ -7,7 +7,8 @@ import trybeTunesGIF from '../gifs/gif-trybeTunes.gif';
 import onlineShop2GIF from '../gifs/gif-onlineShop2.gif';
 import trybeWalletGIF from '../gifs/gif-trybeWallet.gif';
 import triviaGIF from '../gifs/gif-trivia.gif';
-import starWarsGIF from '../gifs/gif-starWars.gif';
+// import starWarsGIF from '../gifs/gif-starWars.gif';
+import baristappGIF from '../gifs/gif-baristapp.gif';
 
 const skillPack1 = 'HTML 5, CSS 3 & Vanilla JS';
 const skillPack2 = 'React JS';
@@ -15,26 +16,26 @@ const skillPack3 = 'React JS with Redux';
 
 const projects = {
   withInterface: [
-    {
-      id: 'foundationToDoList',
-      title: 'To Do List',
-      description: 'Development of a To Do List with some extra features. ',
-      skills: skillPack1,
-      URL: 'https://joaofelipelliccione.github.io/projetos-trybe/1-Fundamentos-Desenvolvimento-Web/05_todo-list/index.html',
-      gifPath: toDoGIF,
-      startDate: '17/08/2021',
-      timeInProg: '1 month and 5 days',
-    },
-    {
-      id: 'foundationTrybewartsForm',
-      title: 'Trybewarts Wizarding School Form',
-      description: 'Development of a Trybewarts School of Magic form page. The theme of this project was based on the work "Harry Potter", by J.K. Rowling.',
-      skills: skillPack1,
-      URL: 'https://joaofelipelliccione.github.io/projetos-trybe/1-Fundamentos-Desenvolvimento-Web/06_trybewarts/index.html',
-      gifPath: trybewartsGIF,
-      startDate: '25/08/2021',
-      timeInProg: '1 month and 13 days',
-    },
+    // {
+    //   id: 'foundationToDoList',
+    //   title: 'To Do List',
+    //   description: 'Development of a To Do List with some extra features. ',
+    //   skills: skillPack1,
+    //   URL: 'https://joaofelipelliccione.github.io/projetos-trybe/1-Fundamentos-Desenvolvimento-Web/05_todo-list/index.html',
+    //   gifPath: toDoGIF,
+    //   startDate: '17/08/2021',
+    //   timeInProg: '1 month and 5 days',
+    // },
+    // {
+    //   id: 'foundationTrybewartsForm',
+    //   title: 'Trybewarts Wizarding School Form',
+    //   description: 'Development of a Trybewarts School of Magic form page. The theme of this project was based on the work "Harry Potter", by J.K. Rowling.',
+    //   skills: skillPack1,
+    //   URL: 'https://joaofelipelliccione.github.io/projetos-trybe/1-Fundamentos-Desenvolvimento-Web/06_trybewarts/index.html',
+    //   gifPath: trybewartsGIF,
+    //   startDate: '25/08/2021',
+    //   timeInProg: '1 month and 13 days',
+    // },
     {
       id: 'foundationOnlineShop',
       title: 'E-Commerce Introduction',
@@ -105,15 +106,25 @@ const projects = {
       startDate: '24/11/2021',
       timeInProg: '4 months and 12 days',
     },
+    // {
+    //   id: 'starWarsDataTable',
+    //   title: 'Star Wars Planets',
+    //   description: 'Development of a Star Wars planets table with filtering mechanism. To structure the respective project, there was consumption of the Planet List® API.',
+    //   skills: 'React JS with focus on functional components, Context API and Hooks',
+    //   URL: 'https://joaofelipelliccione.github.io/trybe_frontend_8-starwars_planets_search/',
+    //   gifPath: starWarsGIF,
+    //   startDate: '06/12/2021',
+    //   timeInProg: '4 meses e 24 dias',
+    // },
     {
-      id: 'starWarsDataTable',
-      title: 'Star Wars Planets',
-      description: 'Development of a Star Wars planets table with filtering mechanism. To structure the respective project, there was consumption of the Planet List® API.',
-      skills: 'React JS with focus on functional components, Context API and Hooks',
-      URL: 'https://joaofelipelliccione.github.io/trybe_frontend_8-starwars_planets_search/',
-      gifPath: starWarsGIF,
-      startDate: '06/12/2021',
-      timeInProg: '4 meses e 24 dias',
+      id: 'baritapp',
+      title: 'Baristapp - Mobile',
+      description: 'Development of a "Nespressopedia" application. To structure the respective project, the baristapp API, developed by me, was used.',
+      skills: skillPack3,
+      URL: 'https://baristapp.vercel.app/',
+      gifPath: baristappGIF,
+      startDate: '17/04/2022',
+      timeInProg: '9 months and 8 days',
     },
   ],
   withoutInterface: [
