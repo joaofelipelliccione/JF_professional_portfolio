@@ -11,7 +11,7 @@ import MobileFooter from '../components/mobile/MobileFooter';
 import '../styles/desktop/portfolio/portfolio.css';
 
 function Portfolio() {
-  const isMobileDevice = useMediaQuery({ query: '(max-width: 500px)' });
+  const isMobileDevice = useMediaQuery({ query: '(max-width: 1024px)' });
 
   return (
     <div id="portfolioPage">

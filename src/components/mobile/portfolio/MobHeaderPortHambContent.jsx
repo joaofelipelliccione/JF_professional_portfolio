@@ -50,10 +50,9 @@ function MobHeaderPortHambContent({ isHambContentOpen, setIsHambContentOpen }) {
       ))}
       <Link
         id="mobCvLink"
-        className="headerPortHambInternalLinks"
         to="/"
       >
-        Curriculum
+        ↤ Curriculum
       </Link>
       <div id="headerPortHambExternalLinksCont">
         <a

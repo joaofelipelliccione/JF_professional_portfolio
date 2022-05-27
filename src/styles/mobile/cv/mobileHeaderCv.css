@@ -1,11 +1,20 @@
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(10rem);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 #cvPageMobileHeader {
-  background-color: #282a36;
+  background-color: #5F7161;
   box-shadow: 0 10px 16px -4px black;
   position: fixed;
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding: 4% 0;
+  padding: 2vw 0;
 }
 
 #cvPageMobHeaderContainer {
@@ -13,7 +22,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 2% 0;
+  padding: 2vw 0;
 }
 
 #cvPageMobHeaderHamburgerContainer {
@@ -36,8 +45,8 @@
 }
 
 #cvPageMobHeaderHamburgerBtn {
-  background-color: #282a36;
-  color: #50fa7b;
+  background-color: #5F7161;
+  color: #EFEAD8;
   border: none;
   display: flex;
   align-items: center;
@@ -50,8 +59,8 @@
 }
 
 #cvPageMobHeaderCloseBtn {
-  background-color: #282a36;
-  color: rgb(255, 85, 85);
+  background-color: #5F7161;
+  color: rgb(252, 166, 166);
   border: none;
   display: flex;
   align-items: center;
@@ -63,67 +72,47 @@
 }
 
 #cvPageMobHeaderContainer a {
-  color: wheat;
-  font-size: 1.15em;
+  color: #EFEAD8;
+  font-size: 1.05em;
   margin-right: 5%;
 }
 
 #mobHeaderCvHambContentContainer {
-  background-color: #282a36;
+  background-color: #5F7161;
   align-self: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 85%;
-  margin: -1.5% 0 1% 0;
-}
+  width: 70%;
+  margin: 3% 0 1% 0;
 
-.slide-bottom {
-	-webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-  animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-
-@-webkit-keyframes slide-bottom {
-  0% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  100% {
-    -webkit-transform: translateY(6%);
-    transform: translateY(6%);
-  }
-}
-
-@keyframes slide-bottom {
-  0% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  100% {
-    -webkit-transform: translateY(6%);
-    transform: translateY(6%);
-  }
+  animation-duration: 1s; /* the duration of the animation */
+  animation-timing-function: ease-out; /* how the animation will behave */
+  animation-delay: 0s; /* how long to delay the animation from starting */
+  animation-iteration-count: 1; /* how many times the animation will play */
+  animation-name: slideInFromRight; /* the name of the animation we defined above */
 }
 
 #mobPortfolioLink {
-  color: ghostwhite;
-  font-size: 1.17em;
+  color: #D7A86E;
+  font-size: 1.1em;
+  text-decoration: none;
 }
 
 .headerCvHambInternalLinks {
-  border-bottom: solid 1px wheat;
-  color: #50fa7b;
-  font-size: 1.05em;
+  border-bottom: solid 1px #EFEAD8;
+  color: #D0C9C0;
+  font-size: 0.95em;
   text-decoration: none;
   text-align: center;
   width: fit-content;
-  margin-bottom: 2.5%;
+  margin-bottom: 4%;
 }
 
 #headerCvHambExternalLinksCont {
   display: flex;
   justify-content: space-evenly;
   width: 30%;
-  margin-top: 4%;
+  margin-top: 5%;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }

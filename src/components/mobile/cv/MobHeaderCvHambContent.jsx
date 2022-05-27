@@ -52,10 +52,9 @@ function MobHeaderCvHambContent({ isHambContentOpen, setIsHambContentOpen }) {
       ))}
       <Link
         id="mobPortfolioLink"
-        className="headerCvHambInternalLinks"
         to="/portfolio"
       >
-        Tech Portfolio
+        Tech Portfolio ↦
       </Link>
       <div id="headerCvHambExternalLinksCont">
         <a

@@ -18,7 +18,7 @@ import MobileExtraCvActivities from '../components/mobile/cv/MobileExtraCvActivi
 import MobileFooter from '../components/mobile/MobileFooter';
 
 function Cv() {
-  const isMobileDevice = useMediaQuery({ query: '(max-width: 500px)' });
+  const isMobileDevice = useMediaQuery({ query: '(max-width: 1024px)' });
 
   return (
     <div id="cvPage">
