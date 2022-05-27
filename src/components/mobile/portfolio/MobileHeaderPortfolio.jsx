@@ -10,7 +10,10 @@ function MobileHeaderPortfolio() {
 
   return (
     <header id="portPageMobileHeader">
-      <div id="portPageMobHeaderContainer">
+      <div
+        id="portPageMobHeaderContainer"
+        style={ { borderBottom: isHambContentOpen && 'dashed 0.5px #D0C9C0' } }
+      >
         <MobileHeaderPortHambBtn
           isHambContentOpen={ isHambContentOpen }
           setIsHambContentOpen={ setIsHambContentOpen }

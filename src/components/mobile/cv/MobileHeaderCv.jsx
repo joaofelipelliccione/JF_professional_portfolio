@@ -10,7 +10,10 @@ function MobileHeaderCv() {
 
   return (
     <header id="cvPageMobileHeader">
-      <div id="cvPageMobHeaderContainer">
+      <div
+        id="cvPageMobHeaderContainer"
+        style={ { borderBottom: isHambContentOpen && 'dashed 0.5px #D0C9C0' } }
+      >
         <MobileHeaderCvHambBtn
           isHambContentOpen={ isHambContentOpen }
           setIsHambContentOpen={ setIsHambContentOpen }
