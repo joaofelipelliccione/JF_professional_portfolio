@@ -57,7 +57,7 @@
 
 #mobNgImgContainer img {
   border-radius: 7px;
-  width: 40%;
+  width: 20vw;
 }
 
 #mobLorealContainer {
@@ -91,7 +91,7 @@
 
 #mobLorealImgContainer img {
   border-radius: 10px;
-  width: 40%;
+  width: 18vw;
 }
 
 /* #mobVinciContainer {

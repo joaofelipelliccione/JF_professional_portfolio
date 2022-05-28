@@ -5,6 +5,7 @@ import reactJsIcon from '../images/icons/react-icon.svg';
 import reduxIcon from '../images/icons/redux-icon.svg';
 import nodeJsIcon from '../images/icons/node-js-icon.svg';
 import tsIcon from '../images/icons/typescript-icon.svg';
+import pythonIcon from '../images/icons/python-icon.png';
 import sequelizeIcon from '../images/icons/sequelize-icon.svg';
 import mongooseIcon from '../images/icons/mongoose-icon.png';
 import gitIcon from '../images/icons/git-icon.svg';
@@ -15,7 +16,7 @@ import vercelIcon from '../images/icons/vercel-icon.svg';
 import herokuIcon from '../images/icons/heroku-icon.svg';
 import GCSIcon from '../images/icons/GCS-icon.svg';
 import slackIcon from '../images/icons/slack-icon.svg';
-import trelloIcon from '../images/icons/trello-icon.svg';
+import mondayIcon from '../images/icons/monday-icon.png';
 
 const learnedTechnologiesArr = [
   [
@@ -28,6 +29,7 @@ const learnedTechnologiesArr = [
   [
     { name: 'Node JS', icon: nodeJsIcon, width: '45px' },
     { name: 'Typescript', icon: tsIcon, width: '45px' },
+    { name: 'Python', icon: pythonIcon, width: '45px' },
     { name: 'Sequelize', icon: sequelizeIcon, width: '38px' },
     { name: 'Mongoose', icon: mongooseIcon, width: '60px' },
   ],
@@ -44,7 +46,7 @@ const learnedTechnologiesArr = [
   ],
   [
     { name: 'Slack', icon: slackIcon, width: '35px' },
-    { name: 'Trello', icon: trelloIcon, width: '45px' },
+    { name: 'Monday', icon: mondayIcon, width: '45px' },
   ],
 ];
 

@@ -44,57 +44,52 @@ function MobileToolsAndLanguages() { // tAndL --> Tools and Languages
         <div id="mobTechTools">
           <h3>Programming | Tech</h3>
           <div id="mobTechToolsContainer1">
-            {learnedTechnologiesArr[0].map(({ name, icon, width }) => (
+            {learnedTechnologiesArr[0].map(({ name, icon }) => (
               <img
                 key={ name }
                 src={ icon }
                 alt={ name }
                 title={ name }
-                width={ width }
               />
             ))}
           </div>
           <div id="mobTechToolsContainer2">
-            {learnedTechnologiesArr[1].map(({ name, icon, width }) => (
+            {learnedTechnologiesArr[1].map(({ name, icon }) => (
               <img
                 src={ icon }
                 key={ name }
                 alt={ name }
                 title={ name }
-                width={ width }
               />
             ))}
           </div>
           <div id="mobTechToolsContainer3">
-            {learnedTechnologiesArr[2].map(({ name, icon, width }) => (
+            {learnedTechnologiesArr[2].map(({ name, icon }) => (
               <img
                 key={ name }
                 title={ name }
                 src={ icon }
                 alt={ name }
-                width={ width }
               />
             ))}
           </div>
           <div id="mobTechToolsContainer4">
-            {learnedTechnologiesArr[3].map(({ name, icon, width }) => (
+            {learnedTechnologiesArr[3].map(({ name, icon }) => (
               <img
                 key={ name }
                 title={ name }
                 alt={ name }
                 src={ icon }
-                width={ width }
               />
             ))}
           </div>
           <div id="mobTechToolsContainer5">
-            {learnedTechnologiesArr[4].map(({ name, icon, width }) => (
+            {learnedTechnologiesArr[4].map(({ name, icon }) => (
               <img
                 key={ name }
                 alt={ name }
                 title={ name }
                 src={ icon }
-                width={ width }
               />
             ))}
           </div>
