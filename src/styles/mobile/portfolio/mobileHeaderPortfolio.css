@@ -1,20 +1,11 @@
-@keyframes slideInFromLeft {
-  0% {
-    transform: translateX(-10rem);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-
 #portPageMobileHeader {
-  background-color: #5F7161;
+  background-color: var(--axolotl);
   box-shadow: 0 10px 16px -4px black;
   position: fixed;
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding: 4% 0;
+  padding: 2% 0;
   z-index: 1;
 }
 
@@ -46,8 +37,8 @@
 }
 
 #portPageMobHeaderHamburgerBtn {
-  background-color: #5F7161;
-  color: #EFEAD8;
+  background-color: var(--axolotl);
+  color: var(--eggShell);
   border: none;
   display: flex;
   align-items: center;
@@ -60,8 +51,8 @@
 }
 
 #portPageMobHeaderCloseBtn {
-  background-color: #5F7161;
-  color: rgb(252, 166, 166);
+  background-color: var(--axolotl);
+  color: var(--salmonPink);
   border: none;
   display: flex;
   align-items: center;
@@ -73,13 +64,13 @@
 }
 
 #portPageMobHeaderContainer a {
-  color: #EFEAD8;
+  color: var(--eggShell);
   font-size: 1.05em;
   margin-right: 5%;
 }
 
 #mobHeaderPortHambContentContainer {
-  background-color: #5F7161;
+  background-color: var(--axolotl);
   align-self: center;
   display: flex;
   flex-direction: column;
@@ -95,14 +86,14 @@
 }
 
 #mobCvLink {
-  color: #D7A86E;
+  color: var(--fawn);
   font-size: 1.1em;
   text-decoration: none;
 }
 
 .headerPortHambInternalLinks {
-  border-bottom: solid 1px #EFEAD8;
-  color: #D0C9C0;
+  border-bottom: solid 1px var(--eggShell);
+  color: var(--pastelGrey);
   font-size: 0.95em;
   text-decoration: none;
   text-align: center;

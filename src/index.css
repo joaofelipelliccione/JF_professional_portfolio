@@ -15,6 +15,14 @@ body {
   font-size: 1em;
 }
 
+:root {
+  --eggShell: #EFEAD8;
+  --pastelGrey: #D0C9C0;
+  --salmonPink: #FCA6A6;
+  --fawn: #D7A86E;
+  --axolotl: #5F7161;
+}
+
 .Typist .Cursor {
   color: ghostwhite;
   display: inline-block;
@@ -29,4 +37,31 @@ body {
   0% { opacity: 1; }
   50% { opacity: 0; }
   100% { opacity: 1; }
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-10rem);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(10rem);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0,0);
+  }
+  100% {
+    transform: scale(1,1);
+  }
 }
