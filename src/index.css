@@ -16,13 +16,16 @@ body {
 }
 
 :root {
-  --eggShell: #EFEAD8;
-  --pastelGrey: #D0C9C0;
   --platinum: #DDDDE9;
-  --darkGrey: #A5B1A8;
+  --pastelGrey: #D0C9C0;
+  --eggShell: #EFEAD8;
   --salmonPink: #FCA6A6;
-  --fawn: #D7A86E;
   --crayola: #FFCA67;
+  --fawn: #D7A86E;
+  --goldfFoil: #C29219;
+  --fieldDrab: #725B20;
+  --darkCharcoal: #353232;
+  --darkGrey: #A5B1A8;
   --xanadu: #6D8B74;
   --axolotl: #5F7161;
   --axolotl2: #64806b;

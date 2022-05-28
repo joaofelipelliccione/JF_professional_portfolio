@@ -98,7 +98,7 @@
 }
 
 .mobAbInstitution {
-  color: rgb(250, 208, 129);
+  color: var(--crayola);
 }
 
 .mobAbContent {
