@@ -33,7 +33,6 @@ function MobHeaderPortHambContent({ isHambContentOpen, setIsHambContentOpen }) {
     <div
       id="mobHeaderPortHambContentContainer"
       ref={ dropdownRef }
-      className="slide-bottom"
     >
       {portPageSections.map(({ title, location }) => (
         <LinkScroll

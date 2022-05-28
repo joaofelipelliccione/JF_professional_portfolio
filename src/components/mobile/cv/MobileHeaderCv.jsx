@@ -8,6 +8,10 @@ import '../../../styles/mobile/cv/mobileHeaderCv.css';
 function MobileHeaderCv() {
   const [isHambContentOpen, setIsHambContentOpen] = React.useState(false);
 
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <header id="cvPageMobileHeader">
       <div

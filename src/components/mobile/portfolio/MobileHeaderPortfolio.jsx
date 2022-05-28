@@ -8,6 +8,10 @@ import '../../../styles/mobile/portfolio/mobileHeaderPortfolio.css';
 function MobileHeaderPortfolio() {
   const [isHambContentOpen, setIsHambContentOpen] = React.useState(false);
 
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <header id="portPageMobileHeader">
       <div

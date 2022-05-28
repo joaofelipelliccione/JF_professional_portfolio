@@ -35,7 +35,6 @@ function MobHeaderCvHambContent({ isHambContentOpen, setIsHambContentOpen }) {
     <div
       id="mobHeaderCvHambContentContainer"
       ref={ dropdownRef }
-      className="slide-bottom"
     >
       {cvPageSections.map(({ title, location }) => (
         <LinkScroll
