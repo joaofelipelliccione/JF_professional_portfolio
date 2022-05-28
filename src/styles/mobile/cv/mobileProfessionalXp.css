@@ -145,5 +145,7 @@
 .mobProfXpContent {
   color: var(--crayola);
   font-size: 0.8em;
+  align-self: center;
+  width: 90%;
   margin-bottom: 4px;
 }
