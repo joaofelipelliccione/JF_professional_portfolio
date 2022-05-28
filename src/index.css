@@ -18,9 +18,16 @@ body {
 :root {
   --eggShell: #EFEAD8;
   --pastelGrey: #D0C9C0;
+  --platinum: #DDDDE9;
+  --darkGrey: #A5B1A8;
   --salmonPink: #FCA6A6;
   --fawn: #D7A86E;
+  --crayola: #FFCA67;
+  --xanadu: #6D8B74;
   --axolotl: #5F7161;
+  --axolotl2: #64806b;
+  --grayAsparagus: #49574B;
+  --feldgrau: #4C584E;
 }
 
 .Typist .Cursor {

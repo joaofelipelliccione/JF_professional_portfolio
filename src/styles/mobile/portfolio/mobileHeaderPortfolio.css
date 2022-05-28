@@ -86,14 +86,14 @@
 }
 
 #mobCvLink {
-  color: var(--fawn);
+  color: var(--crayola);
   font-size: 1.1em;
   text-decoration: none;
 }
 
 .headerPortHambInternalLinks {
   border-bottom: solid 1px var(--eggShell);
-  color: var(--pastelGrey);
+  color: var(--platinum);
   font-size: 0.95em;
   text-decoration: none;
   text-align: center;
