@@ -52,7 +52,7 @@ function MobileExtraCvActivities() {
               <span className="mobAdditionalInfoInstitution">PUC-Rio</span>
             </h4>
             <nav className="mobAdditionalInfoCertificates">
-              <a href={ certificadoBolsa } target="_blank" rel="noreferrer">Certificado</a>
+              <a href={ certificadoBolsa } target="_blank" rel="noreferrer">Certificate</a>
             </nav>
           </div>
         </div>
