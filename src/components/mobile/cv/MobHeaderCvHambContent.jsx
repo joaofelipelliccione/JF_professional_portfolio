@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { Link as LinkScroll } from 'react-scroll';
 import githubIcon from '../../../images/icons/github-icon.svg';
 import linkedinIcon from '../../../images/icons/linkedin-icon.svg';
@@ -49,12 +49,12 @@ function MobHeaderCvHambContent({ isHambContentOpen, setIsHambContentOpen }) {
           {title}
         </LinkScroll>
       ))}
-      <Link
+      {/* <Link
         id="mobPortfolioLink"
         to="/portfolio"
       >
         Tech Portfolio ↦
-      </Link>
+      </Link> */}
       <div id="headerCvHambExternalLinksCont">
         <a
           href="https://github.com/joaofelipelliccione"

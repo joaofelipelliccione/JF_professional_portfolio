@@ -42,7 +42,7 @@ function HeaderCv() {
               Extracurricular Activities
             </LinkScroll>
           </li>
-          <li><Link to="/portfolio" className="notDropdown">Tech Portfolio</Link></li>
+          {/* <li><Link to="/portfolio" className="notDropdown">Tech Portfolio</Link></li> */}
           <li className="dropdown">
             <Link to="#" className="dropdownBtn" onClick={ (e) => e.preventDefault() }>Contact Info »</Link>
             <div className="dropdownContent">
