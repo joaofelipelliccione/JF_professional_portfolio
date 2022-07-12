@@ -1,5 +1,5 @@
 #cvPageHeader {
-  background-color: #282a36;
+  background-color: var(--axolotl);
   box-shadow: 0 10px 16px -4px black;
   position: fixed;
   display: flex;
@@ -15,7 +15,7 @@
 }
 
 #cvPageHeader h1 a {
-  color: wheat;
+  color: var(--eggShell);
   font-size: 1.9em;
   width: fit-content;
   text-align: center;
@@ -24,7 +24,7 @@
 }
 
 #cvPageHeader h1 a:hover {
-  color: #50fa7b;
+  color: var(--crayola);
   font-size: 2em;
   cursor: pointer;
 }
@@ -57,14 +57,14 @@
 }
 
 .notDropdown:hover, .dropdownBtn:hover {
-  color: #50fa7b;
-  font-size: 1.35em;
+  color: var(--eggShell);
+  font-size: 1.33em;
   cursor: pointer;
   text-decoration: overline;
 }
 
 .dropdownContent {
-  background-image: linear-gradient(rgb(54, 56, 70), rgb(71, 50, 71));
+  background-color: var(--axolotl2);
   border-radius: 20px 10px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   display: none;
@@ -73,7 +73,7 @@
 }
 
 .dropdownContent a {
-  color: #50fa7b;
+  color: var(--platinum);
   font-size: 1.1em;
   text-decoration: none;
   display: block;
@@ -87,6 +87,7 @@
 }
 
 .dropdownContent a:hover {
-  color: #ec6948;
-  font-size: 1.15em;
+  color: #DDDDE9;
+  color: var(--darkCharcoal);
+  font-size: 1.1em;
 }
